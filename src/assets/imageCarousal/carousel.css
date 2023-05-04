@@ -1,0 +1,17 @@
+.carousel-container{
+    height: 300px;
+    width: 400px;
+    top: 0;
+}
+
+/* .btn{
+ color: black;   
+}
+
+.carousel-indicators{
+    background-color: black !important;
+} */
+
+.citem > img{
+    height: 25rem;
+}

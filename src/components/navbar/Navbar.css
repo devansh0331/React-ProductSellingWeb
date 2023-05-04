@@ -1,0 +1,23 @@
+.navbar-container{
+    position: relative;
+}
+
+.container-fluid img{
+    height: 5rem;
+}
+
+.navbar-lists{
+    position: absolute;
+    right: 10px;
+}
+
+.nav-item a img{
+   height: 29px;
+   margin: 0.6rem;
+   filter:invert();
+   transition: 0.3s all ease-in-out;
+}
+.nav-item a img:hover{
+    /* transform:scale(1.1); */
+    filter: none;
+}

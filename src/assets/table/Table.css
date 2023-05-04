@@ -1,0 +1,15 @@
+table tbody tr td , table thead tr th {
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    background: rgb(245, 245, 245);
+    padding: 0.3rem;
+    
+  }
+
+  table tbody{
+    /* display: inline; */
+    /* width: ; */
+  }
+
+ 

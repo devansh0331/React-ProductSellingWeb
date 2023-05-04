@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@500&family=Josefin+Sans:ital,wght@0,700;1,300&family=Lato:wght@300;900&family=Poppins:wght@300;600&family=Righteous&family=Roboto:wght@300&display=swap');
+.product{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: flex-start;
+    margin: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    /* background: linear-gradient(to right , rgb(179, 178, 178),rgb(193, 187, 187)); */
+
+}
+
+
+.product > span{
+    font-size: 3.5rem;
+    font-weight: 900;
+    color: red;
+    font-family: 'Alkatra', cursive;
+
+    /* font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+}
+
+
+.product > span > img{
+    height: 80px;
+    width: 80px;
+}
+
+.product-info{
+
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 1rem;
+    margin-top: 2.5rem;
+    margin-bottom: 5rem;
+    width: 100%;
+}
+
+.product-info > img{
+    height: 35rem;
+    width: 50%;
+    /* border: 2px solid black; */
+    /* box-shadow: 2px 2px 10px gray; */
+}
+
+
+.product-desc-para{
+    /* border: 2px solid black; */
+    box-shadow: 2px 2px 10px gray;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin: 1rem;
+    padding: 1.5rem;
+    width: inherit;
+    /* justify-content: flex-start; */
+}
+
+.product-desc-para span{
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.product-desc-para >  p{
+    text-align: justify;
+}
+
+.product-icons{
+    display: flex;
+    align-items: center;
+    /* justify-content: ; */
+}
+
+.product-icons > img , .product-icons .details-btn{
+    margin: 1rem;
+
+}
+
+.details-btn{
+    display: block;
+    /* background: linear-gradient(to right , rgb(55, 55, 255) , rgb(56, 56, 231) ) ; */
+    background-color: blue;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+    border-radius: 8px;
+    padding: 0.5rem;
+    transition: 0.5s all ease-in-out;
+}
+
+
+
+.details-btn a{
+    text-decoration: none;
+    color: white;
+    transition: 0.5s all ease-in-out;
+
+}
+.details-btn:hover {
+    background-color: rgb(170, 167, 167);
+
+  
+}
+
+.details-btn a:hover{
+    color: black;
+}
+
+
+.product-icons > img:hover{
+    cursor: pointer;
+    transform: scale(1.12);
+}
+
+.team-card{
+    display: flex ;
+  
+    justify-content: space-between ;
+    
+}
+.team-card > .col-3{
+    width: 20%;
+margin: 2.5em !important;    
+}
